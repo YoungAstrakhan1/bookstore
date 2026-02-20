@@ -1,0 +1,173 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 48px;
+}
+.header__container h1,
+.header__container a {
+  font-size: 16px;
+}
+.header__container a {
+  text-decoration: none;
+  color: #868686;
+}
+.header__container :hover {
+  color: black;
+}
+
+.header__menu {
+  display: flex;
+  gap: 64px;
+}
+
+.question__container {
+  margin-top: 78px;
+  margin-bottom: 120px;
+  display: grid;
+  grid-template-columns: 600px 476px;
+  gap: 100px;
+  justify-content: center;
+}
+
+.question__text {
+  width: 520px;
+}
+.question__text h1 {
+  width: 600px;
+  font-weight: 700;
+  font-size: 52px;
+  margin-bottom: 28px;
+}
+.question__text b {
+  font-weight: 700;
+  color: #5cb650;
+}
+.question__text p {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 64px;
+}
+.question__text a {
+  color: black;
+  margin-left: 56px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.question__text button {
+  color: white;
+  background-color: #232323;
+  width: 211px;
+  height: 83px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+
+.question__img {
+  margin-left: 100px;
+}
+
+.point__container {
+  display: grid;
+  grid-template-columns: 1040px;
+  justify-content: center;
+}
+.point__container h1 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 82px;
+  text-align: center;
+}
+
+.point__card1 {
+  display: grid;
+  grid-template-columns: 206px 632px;
+  gap: 78px;
+  justify-content: center;
+}
+.point__card1 img {
+  margin-bottom: 44px;
+}
+.point__card1 p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.point__card2 {
+  display: grid;
+  grid-template-columns: 632px 206px;
+  gap: 78px;
+  justify-content: center;
+  margin-bottom: 44px;
+}
+.point__card2 p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.experience__container {
+  display: grid;
+  grid-template-columns: 1100px;
+  justify-content: center;
+  margin-bottom: 111px;
+}
+.experience__container h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 56px;
+  margin-top: 82px;
+}
+
+.experience__text {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 580px 357px;
+  gap: 58px;
+}
+
+.text__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__container p {
+  color: #232323;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.copyright__container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.copyright__container p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.link_container {
+  display: flex;
+  gap: 48px;
+}
+.link_container a {
+  color: #868686;
+  font-size: 14px;
+  font-weight: 400;
+}
+.link_container :hover {
+  color: #232323;
+}/*# sourceMappingURL=style.css.map */
